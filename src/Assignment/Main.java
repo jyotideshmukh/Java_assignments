@@ -4,14 +4,31 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking for switch case
+      SwitchTest.getDayByNum(0);
+      SwitchTest.getDayByNum(1);
+      SwitchTest.getDayByNum(3);
+      SwitchTest.getDayByNum(4);
+      SwitchTest.getDayByNum(5);
+      SwitchTest.getDayByNum(6);
+      SwitchTest.getDayByNum(7);
+
+      /*SwitchTest.testSwitchCase('A');
+      SwitchTest.testSwitchCase('B');
+      SwitchTest.testSwitchCase('C');
+      SwitchTest.testSwitchCase('D');*/
+
+
+
       //checking solution of IntEqualityPrinter
-      IntEqualityPrinter.printEqual(1, 1, 1);
+     /* IntEqualityPrinter.printEqual(1, 1, 1);
       IntEqualityPrinter.printEqual(-1, 1, 1);
       IntEqualityPrinter.printEqual(1, -1, 1);
       IntEqualityPrinter.printEqual(1, 1, -1);
       IntEqualityPrinter.printEqual(1, 1, 2);
       IntEqualityPrinter.printEqual(1, 2, 2);
       IntEqualityPrinter.printEqual(1, 2, 1);
+      */
 
       //checking solution of MinutesToYearsDaysCalculator- print year and days from minutes
 
