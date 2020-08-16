@@ -4,13 +4,20 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking solution of MinutesToYearsDaysCalculator- print year and days from minutes
+
+      MinutesToYearsDaysCalculator.printYearsAndDays(1440);
+      MinutesToYearsDaysCalculator.printYearsAndDays(-1440);
+      MinutesToYearsDaysCalculator.printYearsAndDays((365*24*60)+1);
+
       //checking solution - overloading area of circle and rectangle Use of Math.PI and constant variable use for returning error
 
-      System.out.println(AreaOverloading.area(10, 5));
+     /* System.out.println(AreaOverloading.area(10, 5));
       System.out.println(AreaOverloading.area(10));
       System.out.println(AreaOverloading.area(-10));
       System.out.println(AreaOverloading.area(-10,5));
       System.out.println(AreaOverloading.area(10,-5));
+      */
 
       //checking solution of DurationString
 
