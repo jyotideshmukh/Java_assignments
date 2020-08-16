@@ -4,11 +4,20 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking solution of IntEqualityPrinter
+      IntEqualityPrinter.printEqual(1, 1, 1);
+      IntEqualityPrinter.printEqual(-1, 1, 1);
+      IntEqualityPrinter.printEqual(1, -1, 1);
+      IntEqualityPrinter.printEqual(1, 1, -1);
+      IntEqualityPrinter.printEqual(1, 1, 2);
+      IntEqualityPrinter.printEqual(1, 2, 2);
+      IntEqualityPrinter.printEqual(1, 2, 1);
+
       //checking solution of MinutesToYearsDaysCalculator- print year and days from minutes
 
-      MinutesToYearsDaysCalculator.printYearsAndDays(1440);
+     /* MinutesToYearsDaysCalculator.printYearsAndDays(1440);
       MinutesToYearsDaysCalculator.printYearsAndDays(-1440);
-      MinutesToYearsDaysCalculator.printYearsAndDays((365*24*60)+1);
+      MinutesToYearsDaysCalculator.printYearsAndDays((365*24*60)+1);*/
 
       //checking solution - overloading area of circle and rectangle Use of Math.PI and constant variable use for returning error
 
