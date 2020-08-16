@@ -2,7 +2,7 @@ package Assignment;
 
 public class DurationString {
 
-    public static void getDurationString(long mins, long seconds){
+    public static String getDurationString(long mins, long seconds){
         int hours =0;
         long remainingMins = 0;
 
@@ -14,15 +14,18 @@ public class DurationString {
             }
          
             System.out.println(hours+"h "+remainingMins+"m "+seconds+"s");
+            return (hours+"h "+remainingMins+"m "+seconds+"s");
 
         }
         else
         System.out.println("Invalid value");
 
+        return "Invalid value";
+
     
     }
 
-    public static void getDurationString(long seconds){
+    public static String getDurationString(long seconds){
         long mins =0;
         long remainingSeconds = 0;
 
@@ -30,15 +33,14 @@ public class DurationString {
 
             mins = (int)seconds/60;
             
-            if(mins!=0){
-                remainingSeconds = mins % 60;
-            }
-         
-            getDurationString(mins, remainingSeconds);
+            remainingSeconds = mins % 60;
+                     
+            return getDurationString(mins, remainingSeconds);
 
         }
         else
         System.out.println("Invalid value");
+        return "Invalid value";
 
     
     }
