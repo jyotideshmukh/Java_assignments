@@ -4,10 +4,18 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking solution - overloading area of circle and rectangle Use of Math.PI and constant variable use for returning error
+
+      System.out.println(AreaOverloading.area(10, 5));
+      System.out.println(AreaOverloading.area(10));
+      System.out.println(AreaOverloading.area(-10));
+      System.out.println(AreaOverloading.area(-10,5));
+      System.out.println(AreaOverloading.area(10,-5));
+
       //checking solution of DurationString
 
-      DurationString.getDurationString(3602,59);
-      DurationString.getDurationString(3945);
+     /* DurationString.getDurationString(3602,59);
+      DurationString.getDurationString(3945);*/
 
 
       //checking solution for overloading
