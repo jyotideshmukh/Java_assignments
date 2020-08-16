@@ -4,10 +4,16 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking solution of DurationString
+
+      DurationString.getDurationString(3602,59);
+      DurationString.getDurationString(3945);
+
+
       //checking solution for overloading
 
-      OverLoading.calculateFeetAndInchesToCentimeters(6,6);
-      OverLoading.calculateFeetAndInchesToCentimeters(78);
+      //OverLoading.calculateFeetAndInchesToCentimeters(6,6);
+      //OverLoading.calculateFeetAndInchesToCentimeters(78);
 
 
          //checking answers of EqualSumChecker
