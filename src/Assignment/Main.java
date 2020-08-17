@@ -4,14 +4,31 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking solution if number divided  by 3 and 5 within range
+
+      NumDivBy3And5.getNumbersDivededBy3And5(1, 110);
+
+     // NumDivBy3And5.getNumbersDivededBy3And5(1000, 1);
+
+      //checking solution of NumberOfDaysInMonth-year
+
+     /* System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 1924));cls
+      System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 3000));
+      System.out.println(NumberOfDaysInMonth.getDaysInMonth(8, 2020));
+      System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2020));
+
+      System.out.println(NumberOfDaysInMonth.isLeapYear(-2020));
+      System.out.println(NumberOfDaysInMonth.isLeapYear(2020));
+      System.out.println(NumberOfDaysInMonth.isLeapYear(3000));*/
+
       //checking for switch case
-      SwitchTest.getDayByNum(0);
+     /* SwitchTest.getDayByNum(0);
       SwitchTest.getDayByNum(1);
       SwitchTest.getDayByNum(3);
       SwitchTest.getDayByNum(4);
       SwitchTest.getDayByNum(5);
       SwitchTest.getDayByNum(6);
-      SwitchTest.getDayByNum(7);
+      SwitchTest.getDayByNum(7);*/
 
       /*SwitchTest.testSwitchCase('A');
       SwitchTest.testSwitchCase('B');
