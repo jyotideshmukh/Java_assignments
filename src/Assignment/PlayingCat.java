@@ -1,6 +1,5 @@
 package Assignment;
 
-import javax.lang.model.util.ElementScanner6;
 
     /*
     * cat playing assignment - if summer cat can play within temp 25 to 45
