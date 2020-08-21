@@ -4,11 +4,32 @@ public class Main {
 
     public static void main(String args[]){
 
+      //check shared digit
+      System.out.println("Test1="+SharedDigit.hasSharedDigit(12, 13));
+      System.out.println("Test2="+SharedDigit.hasSharedDigit(12, 34));
+      System.out.println("Test3="+SharedDigit.hasSharedDigit(25, 53));
+      System.out.println("Test4="+SharedDigit.hasSharedDigit(11, 10));
+
+      //get Even digitSum from number
+     /* System.out.println("Sum="+ EvenDigitSum.getEvenDigitSum(123456789));
+      System.out.println("Sum="+ EvenDigitSum.getEvenDigitSum(11));
+      System.out.println("Sum="+ EvenDigitSum.getEvenDigitSum(-22));*/
+
+
+      //checking of solution  return sum of first and last digit number
+
+      //System.out.println("Sum of first and last digit of 5 is "+FirstLastDigitSum.sumFirstAndLastDigit(5));
+      //System.out.println("Sum of first and last digit 121 is "+FirstLastDigitSum.sumFirstAndLastDigit(121));
+      //System.out.println("Sum of first and last digit 100 is "+FirstLastDigitSum.sumFirstAndLastDigit(100));
+      //System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(-100));
+      //System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(11));
+
+
       //checking solution isPalindrome
-      System.out.println( NumberPalindrome.isPalindrome(121));
+      /*System.out.println( NumberPalindrome.isPalindrome(121));
       System.out.println( NumberPalindrome.isPalindrome(12));
       
-      System.out.println( NumberPalindrome.isPalindrome(-1221));
+      System.out.println( NumberPalindrome.isPalindrome(-1221));*/
 
 
 
