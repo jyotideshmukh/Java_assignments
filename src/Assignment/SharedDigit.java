@@ -6,8 +6,7 @@ public class SharedDigit {
 
         int unitDigitNum = 0;
 
-        boolean sharedDigit = false;
-
+       
         if(number1 < 10 || number1 > 99 || number2 < 10  || number2 > 99 ){
             
             return false;
@@ -38,7 +37,7 @@ public class SharedDigit {
 
 
         }
-        return sharedDigit;
+        return false;
 
     }
     

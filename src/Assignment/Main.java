@@ -4,11 +4,41 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking for print factors of number
+
+      FactorPrinter.printFactors(1);
+      System.out.println("************");
+      FactorPrinter.printFactors(0);
+      System.out.println("************");
+      FactorPrinter.printFactors(7);
+      System.out.println("************");
+      FactorPrinter.printFactors(16);
+      System.out.println("************");
+      FactorPrinter.printFactors(45);
+
+
+
+      //check value of greatest divisor
+     /* System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(18, 9));
+      System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(20, -15));
+      System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25, 15));
+      System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(81, 153));
+      System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(9, 18));*/
+
+
+
+      //check if  two numbers last digit number is same out of three numbers LastDigitChecker
+
+     /* System.out.println(LastDigitChecker.hasSameLastDigit(10, 100, 23));
+      System.out.println(LastDigitChecker.hasSameLastDigit(10, 100, 9));
+      System.out.println(LastDigitChecker.hasSameLastDigit(19, 25, 959));
+      System.out.println(LastDigitChecker.hasSameLastDigit(18, 236, 586));*/
+
       //check shared digit
-      System.out.println("Test1="+SharedDigit.hasSharedDigit(12, 13));
-      System.out.println("Test2="+SharedDigit.hasSharedDigit(12, 34));
-      System.out.println("Test3="+SharedDigit.hasSharedDigit(25, 53));
-      System.out.println("Test4="+SharedDigit.hasSharedDigit(11, 10));
+      //System.out.println("Test1="+SharedDigit.hasSharedDigit(12, 13));
+      //System.out.println("Test2="+SharedDigit.hasSharedDigit(12, 34));
+      //System.out.println("Test3="+SharedDigit.hasSharedDigit(25, 53));
+      //System.out.println("Test4="+SharedDigit.hasSharedDigit(11, 10));
 
       //get Even digitSum from number
      /* System.out.println("Sum="+ EvenDigitSum.getEvenDigitSum(123456789));
