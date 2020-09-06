@@ -4,9 +4,60 @@ public class Main {
 
     public static void main(String args[]){
 
+      //checking solution of number to words assignment
+      int number;
+      number = 0;
+     System.out.println("Digit count of number"+number+"="+NumberToWords.getDigitCount(number));
+     number = 123;
+     System.out.println("Digit count of number"+number+"="+NumberToWords.getDigitCount(number));
+     number = -12;
+     System.out.println("Digit count of number"+number+"="+NumberToWords.getDigitCount(number));
+     number = 100;
+     System.out.println("Digit count of number"+number+"="+NumberToWords.getDigitCount(number));
+     number = 1234;
+     System.out.println("Digit count of number"+number+"="+NumberToWords.getDigitCount(number));
+
+    number = 123;
+    System.out.println("Reverse number of "+number+" is "+NumberToWords.reverse(number));
+    
+    number = 123;
+    System.out.println("Reverse number of "+number+" is "+NumberToWords.reverse(number));
+
+       
+    number = -121;
+    System.out.println("Reverse number of "+number+" is "+NumberToWords.reverse(number));
+
+    number = 1212;
+    System.out.println("Reverse number of "+number+" is "+NumberToWords.reverse(number));
+
+    number = 100;
+    System.out.println("Reverse number of "+number+" is "+NumberToWords.reverse(number));
+
+    
+    NumberToWords.numberToWords(123);
+    System.out.println("****");
+    NumberToWords.numberToWords(100);
+    System.out.println("****");
+    NumberToWords.numberToWords(1010);
+    System.out.println("****");
+    NumberToWords.numberToWords(-12);
+
+
+
+      //checking for solution of is perfect number
+
+      /*System.out.println(PerfectNumber.isPerfectNumber(1));
+      System.out.println(PerfectNumber.isPerfectNumber(6));
+      System.out.println(PerfectNumber.isPerfectNumber(-1));
+      System.out.println(PerfectNumber.isPerfectNumber(12));
+      System.out.println(PerfectNumber.isPerfectNumber(5));
+      System.out.println(PerfectNumber.isPerfectNumber(28));*/
+
+
+
       //checking for print factors of number
 
-      FactorPrinter.printFactors(1);
+      /*FactorPrinter.printFactors(1);
       System.out.println("************");
       FactorPrinter.printFactors(0);
       System.out.println("************");
@@ -14,7 +65,7 @@ public class Main {
       System.out.println("************");
       FactorPrinter.printFactors(16);
       System.out.println("************");
-      FactorPrinter.printFactors(45);
+      FactorPrinter.printFactors(45);*/
 
 
 
