@@ -1,92 +1,11 @@
 package Assignment;
-
-import Assignment.Composition.Ceiling;
-import Assignment.Composition.Wall;
-import Assignment.Composition.Bed;
-import Assignment.Composition.Lamp;
-import Assignment.Composition.Bedroom;
-import Assignment.GrosserList.GrosserList;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
+//import java.util.Arrays;
+//import java.util.Scanner;
 
 public class Main{
-    public static GrosserList grosserList = new GrosserList();
-    public static Scanner scanner = new Scanner(System.in);
 
-    /**
-     * Function for operations Grosserlist
-     */
-    public static void  printGrosserList(){
-        System.out.println("Items in grosser list");
-        grosserList.printGrosserList();
-    }
-    public static void  addItemInList(){
-        System.out.print("Enter Item:");
-        grosserList.addItem(scanner.nextLine());
-    }
-    public static void removeItem(){
-        System.out.print("Enter position from which you want to remove item");
-        String  item = scanner.nextLine();
-        grosserList.removeItem(item);
-    }
-    public static void modifyItem(){
-        System.out.print("Enter current item to modify");
-        String currentItem = scanner.nextLine();
-        System.out.println("Enter new Item");
-        String item = scanner.nextLine();
-        grosserList.modifyGroceryItem(currentItem,item);
-    }
-
-    public static void searchItem(){
-        System.out.println("Enter item to search");
-        String item = scanner.nextLine();
-        grosserList.searchItem(item);
-    }
-
-    public static void printChoice(){
-        System.out.println("Enter your choice:");
-        System.out.println("0 for print choice");
-        System.out.println("1 for add item in list");
-        System.out.println("2 for print the items in list");
-        System.out.println("3 for modify item from list");
-        System.out.println("4 for remove item from list");
-        System.out.println("5 for search item from list");
-        System.out.println("6 to quit from program");
-    }
    public static void main(String args[]){
-        boolean flag = true;
-       int choice = 0;
-       printChoice();
-       while(flag){
-           System.out.println("Enter your choice: " );
-           choice = scanner.nextInt();
-           scanner.nextLine();
-           switch(choice){
-               case 0:
-                   printChoice();
-                   break;
-               case 1 :
-                   addItemInList();
-                   break;
-               case 2:
-                   printGrosserList();
-                   break;
-               case 3:
-                   modifyItem();
-                   break;
-               case 4:
-                   removeItem();
-                   break;
-               case 5:
-                   searchItem();
-                   break;
-               case 6:
-                   flag = false;
-                   break;
-           }
-       }
+
 
      //testing reversed array
       /* int[] array = {1, 5, 8, 9,89,78,0, -8};
@@ -109,17 +28,7 @@ public class Main{
     int sortedArr[] = SortedArray.sortIntegers(arr);
     SortedArray.printArray(sortedArr);*/
 
-       //testing of composition
 
-    /*Wall wall1 = new Wall("West");
-    Wall wall2 = new Wall("East");
-    Wall wall3 = new Wall("South");
-    Wall wall4 = new Wall("North");
-    Ceiling ceiling = new Ceiling(12, 55);
-    Bed bed = new Bed("Modern",4,3,2,1);
-    Lamp lamp = new Lamp("classic",false,75);
-    Bedroom bedroom = new Bedroom("Jyoti", wall1, wall2, wall3, wall4, bed, ceiling, lamp);
-    bedroom.makeBed();*/
       //check Rectangle, Cuboid and inhertance
      /* Rectangle rectangle  = new Rectangle(5, 10);
       System.out.println("Rectangle width ="+rectangle.getWidth());
