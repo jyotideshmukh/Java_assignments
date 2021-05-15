@@ -2,9 +2,12 @@ package Assignment;
 //import java.util.Arrays;
 //import java.util.Scanner;
 
+import Assignment.AbstractClass.MyItemList;
+import Assignment.AbstractClass.Node;
+import Assignment.AbstractClass.SearchTree;
 import Assignment.Banking.Bank;
-import Assignment.Playlist.Album;
-import Assignment.Playlist.Song;
+import Assignment.Innerclass.Album;
+import Assignment.Innerclass.Song;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,43 +18,47 @@ public class Main{
 
    public static void main(String args[]){
 
-    ArrayList<Album> albums = new ArrayList<>();
-    Album album = new Album("Stormbringer", "Deep Purple");
-    album.addSong("StormBringer", 4.6);
-    album.addSong("Love don't mean a thing", 4.2);
-    album.addSong("Holy man", 4.33);
-    album.addSong("Hold on", 5.22);
-    album.addSong("Lady double dealer", 4.6);
-    album.addSong("You can't do it right", 3.5);
-    album.addSong("High ball shooter", 4.27);
-    album.addSong("The gypsy", 3.78);
-    album.addSong("Soldier of fortune", 3.21);
-    albums.add(album);
+    /*MyItemList list = new MyItemList(null);
+    list.traverse(list.getRoot());*/
 
-    album = new Album("For those about to rock", "AC/DC");
-    album.addSong("For those about to rock", 4.6);
-    album.addSong("I put the finger on you", 4.2);
-    album.addSong("Let's go", 4.33);
-    album.addSong("Inject the venom", 5.22);
-    album.addSong("Snowballed", 4.6);
-    album.addSong("Evil works", 3.5);
-    album.addSong("C.O.D.", 4.27);
-    album.addSong("Breaking the rules", 3.78);
-    album.addSong("Night of long knives", 3.21);
-    albums.add(album);
-
-    LinkedList<Song> playlist = new LinkedList<Song>();
-    albums.get(0).addToPlayList("You can't do it right",playlist);
-    albums.get(0).addToPlayList("Holy man",playlist);
-    albums.get(0).addToPlayList("Speed King",playlist);
-    albums.get(0).addToPlayList(9,playlist);
-    albums.get(1).addToPlayList(3,playlist);
-    albums.get(1).addToPlayList(2,playlist);
-    albums.get(1).addToPlayList(24,playlist);
-    System.out.println("Songs in playList"+playlist.size());
-    for (int i = 0; i < playlist.size(); i++) {
-     System.out.println(playlist.get(i));
+  /*  String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+    String[] data = stringData.split(" ");
+    for(String s : data){
+     list.addItem(new Node(s) );
     }
+    list.traverse(list.getRoot());
+*/
+    SearchTree list = new SearchTree(null);
+    list.traverse(list.getRoot());
+    String stringData = "8 9 6 3 0 1 2 5 4 7";
+    String[] data = stringData.split(" ");
+    for(String s : data){
+     list.addItem(new Node(s) );
+    }
+    list.traverse(list.getRoot());
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("5"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("8"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("3"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("2"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("0"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("1"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("9"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("7"));
+    list.removeItem(new Node("6"));
+    list.traverse(list.getRoot());
+    list.removeItem(new Node("4"));
+    list.traverse(list.getRoot());
+
+
+
   /*  Bank bank = new Bank("State Bank of India ");
     bank.addBranch("Baner");
     bank.addCustomer("Baner","Jyoti",50.100);

@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18162f0f-133d-48a3-9cf6-785df9576973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Banking/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Banking/Branch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Banking/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Playlist/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Playlist/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/AbstractClass/ListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/AbstractClass/MyItemList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/AbstractClass/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/AbstractClass/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/AbstractClass/SearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Innerclass/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Innerclass/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Innerclass/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Interface/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Interface/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Playlist/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment/Assignment/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Assignment/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Assignment/MobilePhone/MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Assignment/MobilePhone/MobilePhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Assignment/Playlist/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Assignment/Playlist/Album.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,11 +49,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Assignment/Innerclass" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assignment/Innerclass" />
+      <recent name="$PROJECT_DIR$/src/Assignment" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Java Assignments" type="Application" factoryName="Application">
