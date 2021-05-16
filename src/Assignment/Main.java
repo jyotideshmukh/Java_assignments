@@ -8,6 +8,8 @@ import Assignment.AbstractClass.SearchTree;
 import Assignment.Banking.Bank;
 import Assignment.Innerclass.Album;
 import Assignment.Innerclass.Song;
+import study.java.example.Series;
+import study.java.scope.X;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -17,6 +19,27 @@ import java.util.ListIterator;
 public class Main{
 
    public static void main(String args[]){
+    X x = new X(5);
+    x.x();
+    x.printTable(3);
+       System.out.println("************************************");
+    X.Xinnercalss xinner = x.new Xinnercalss(5);
+    xinner.x();
+    xinner.printTable(4);
+   /*
+   Created jar  and tested in another project
+    Series s = new Series();
+
+    for(int i = 0; i<=10; i++){
+     System.out.println(s.nSum(i));
+    }
+    for(int i = 0; i<=10; i++) {
+     System.out.println("Factorial of " + i+"=" + s.factorial(i));
+    }
+    for(int i = 0; i<=10; i++) {
+     System.out.println("Fibonacci of" + i+"=" + s.fibonacci(i));
+    }
+    */
 
     /*MyItemList list = new MyItemList(null);
     list.traverse(list.getRoot());*/
@@ -28,6 +51,7 @@ public class Main{
     }
     list.traverse(list.getRoot());
 */
+    /* search tree testing
     SearchTree list = new SearchTree(null);
     list.traverse(list.getRoot());
     String stringData = "8 9 6 3 0 1 2 5 4 7";
@@ -57,7 +81,7 @@ public class Main{
     list.removeItem(new Node("4"));
     list.traverse(list.getRoot());
 
-
+*/
 
   /*  Bank bank = new Bank("State Bank of India ");
     bank.addBranch("Baner");
@@ -373,4 +397,6 @@ public class Main{
        System.out.println(LeapYear.isLeapYear(0));
        System.out.println(LeapYear.isLeapYear(1924));*/
     }
+
+
 }
