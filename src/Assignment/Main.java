@@ -18,16 +18,30 @@ import java.util.ListIterator;
 
 
 public class Main{
+    public static void printArray(int [] nums){
+        for(int i =0; i< nums.length; i++){
+            System.out.print(nums[i]+" ");
+        }
+        System.out.println();
+    }
 
    public static void main(String args[]){
+
+       //RunningSumOf1DArray
+       int [] nums = {1,2,3,4};
+       RunningSumOf1DArray r = new RunningSumOf1DArray();
+       int[] sumarr = r.runningSum(nums);
+       printArray(sumarr);
+       int[] num2 = {1,1,1,1,1};
+       printArray(r.runningSum(num2));
        //Richest man
-       int [][] accounts = {{1,2,3},{3,2,1}};
+       /*int [][] accounts = {{1,2,3},{3,2,1}};
        RichestMan r = new RichestMan();
        System.out.println(r.maximumWealth(accounts));
        int [][] account = {{1,5},{7,3},{3,5}};//];
        System.out.println(r.maximumWealth(account));
        int [][] acc = {{2,8,7},{7,1,3},{1,9,5}};
-       System.out.println(r.maximumWealth(acc));
+       System.out.println(r.maximumWealth(acc));*/
 
 
     /*X x = new X(5);
