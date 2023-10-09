@@ -43,7 +43,15 @@ public class Main {
     }
 */
     public static void main(String[] args) {
-
+        //jewels stone count
+        JewelsAndStones obj = new JewelsAndStones();
+        String jewels = "aA", stones = "aAAbbbb";
+        System.out.println(obj.numJewelsInStones(jewels,stones ));
+        String jewels2 = "z", stones2 = "ZZ";
+        System.out.println(obj.numJewelsInStones(jewels2,stones2 ));
+        System.out.println(obj.numJewelsInStones("z","Zz" ));
+        System.out.println(obj.numJewelsInStones("ABa","AB" ));
+        System.out.println(obj.numJewelsInStones("ABC","pqr" ));
         //int[] arr = {1, 2, 3, 4, 5};
         //int n = arr.length;
         /*printArray(arr, n);
@@ -171,9 +179,11 @@ public class Main {
      To make the array balanced you can add 1. Example 2: Input: N = 6 arr[] = { 1, 2, 1, 2, 1, 3 } Output: 2
      Explanation: Sum of first 3 elements is 1 + 2 + 1 = 4,
          */
-        int arr[] = {1, 5, 3, 2};
+        /*int arr[] = {1, 5, 3, 2};
         System.out.println(Warmup.balanceArray(arr));
         int arr2[] = { 1, 2, 1, 2, 1, 3 };
         System.out.println(Warmup.balanceArray(arr2));
+
+         */
     }
 }

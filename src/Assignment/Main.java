@@ -2,19 +2,7 @@ package Assignment;
 //import java.util.Arrays;
 //import java.util.Scanner;
 
-import Assignment.AbstractClass.MyItemList;
-import Assignment.AbstractClass.Node;
-import Assignment.AbstractClass.SearchTree;
-import Assignment.Banking.Bank;
-import Assignment.Innerclass.Album;
-import Assignment.Innerclass.Song;
-import study.java.example.Series;
-import study.java.scope.X;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import Dsa.RunningSumOf1DArray;
 
 
 public class Main{

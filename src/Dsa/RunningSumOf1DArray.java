@@ -1,4 +1,4 @@
-package Assignment;
+package Dsa;
 
 public class RunningSumOf1DArray {
 
